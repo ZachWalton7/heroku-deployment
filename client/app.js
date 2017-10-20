@@ -5,7 +5,7 @@ angular.module('heroku', [
 .config(['$routeProvider', function($routeProvider){
     $routeProvider
     .when('/', {
-        templateUrl: "views/home.html",
+        templateUrl: 'views/home.html',
         controller: 'HomeController'
     })
     .otherwise({

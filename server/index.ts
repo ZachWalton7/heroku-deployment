@@ -1,4 +1,4 @@
-import {join} from 'path';
+import { join } from 'path';
 import * as express from 'express';
 
 const clientPath = join(__dirname, '../client');
